@@ -30,6 +30,8 @@ gem 'jbuilder', '~> 2.5'
 # gem 'capistrano-rails', group: :development
 
 gem 'devise' # for user-authentication
+gem 'omniauth'
+gem 'omniauth-facebook'
 
 group :development, :test do
   gem 'pry-byebug'
