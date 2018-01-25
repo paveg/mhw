@@ -36,6 +36,15 @@ group :development, :test do
   gem 'pry-remote'
   gem 'capybara', '~> 2.13'
   gem 'selenium-webdriver'
+
+  # for test
+  gem 'rspec'
+  gem 'rspec-rails'
+  # for lint
+  gem 'rubocop', require: false
+  gem 'rubocop-rspec', require: false
+  gem 'mry'
+  gem 'gry'
 end
 
 group :development do
